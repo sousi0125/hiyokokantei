@@ -1,0 +1,13 @@
+{
+    "providers":[
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/hiyoko_recipe_megane.png",
+            "ascent": 10,
+            "height": 54,
+            "chars": [
+                "\uE000"
+            ]
+        }
+    ]
+}
