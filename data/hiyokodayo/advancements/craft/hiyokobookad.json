@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "hiyokodayo:hiyoko_book"
+        }
+      }
+    },
+    "rewards": {
+      "function": "hiyokodayo:hiyokobookfun"
+    }
+  }
+  
