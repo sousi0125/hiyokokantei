@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:air",
+        "minecraft:cave_air",
+        "#fences",
+        "#fence_gates",
+        "#wool_carpets",
+        "#slabs",
+        "#walls"
+    ]
+}

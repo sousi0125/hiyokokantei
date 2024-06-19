@@ -1,0 +1,3 @@
+execute as @e[type=chicken,predicate=hiyokokantei:babychicken,tag=!hiyoko_raycasting,dx=0] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] positioned ~0.99 ~0.99 ~0.99 run function hiyokokantei:collide
+scoreboard players add .distance hiyokokantei.kill1 1
+execute if score .distance hiyokokantei.kill1 matches ..1000 positioned ^ ^ ^0.1 rotated ~ ~ if block ~ ~ ~ #hiyokokantei:suru- run function hiyokokantei:raycast
